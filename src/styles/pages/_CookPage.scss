@@ -1,0 +1,27 @@
+.app {
+    header {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+      h1 {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 10px;
+        color: #FA8072;
+      }
+      input[type="text"] {
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        border: 2px solid gray;
+      }
+      .card-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+      }
+    }
